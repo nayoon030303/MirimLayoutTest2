@@ -24,7 +24,13 @@ public class MainActivity extends AppCompatActivity {
         lineear1.setBackgroundColor(Color.rgb(181,178,255));
         lineear1.setOrientation(LinearLayout.VERTICAL);
 
+        EditText editText = new EditText(this);
+        lineear1.addView(editText);
 
+        Button btn = new Button(this);
+
+
+        TextView textView = new TextView(this);
 
 
       /*  Button btn = new Button(this);
